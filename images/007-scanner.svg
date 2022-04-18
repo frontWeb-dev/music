@@ -1,0 +1,18 @@
+<svg data-name="007-scanner" xmlns="http://www.w3.org/2000/svg" width="20.257" height="16.434" viewBox="0 0 20.257 16.434">
+    <defs>
+        <linearGradient id="njxn7h4f4a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed8770"/>
+            <stop offset="1" stop-color="#d9519d"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 2201">
+        <g data-name="그룹 2200">
+            <path data-name="패스 68488" d="M18.634 55.053 5.373 48.314l-.538 1.058L18.1 56.111a1.772 1.772 0 0 1 .97 1.589v1.115H0v2.967a2.971 2.971 0 0 0 2.967 2.967h17.29V57.7a2.954 2.954 0 0 0-1.623-2.647zM3.561 62.572a.791.791 0 1 1 .791-.791.791.791 0 0 1-.791.791z" transform="translate(0 -48.314)" style="fill:url(#njxn7h4f4a)"/>
+        </g>
+    </g>
+    <g data-name="그룹 2203">
+        <g data-name="그룹 2202">
+            <path data-name="사각형 1374" style="fill:url(#njxn7h4f4a)" d="M0 0h13.333v1.187H0z" transform="translate(2.967 8.521)"/>
+        </g>
+    </g>
+</svg>

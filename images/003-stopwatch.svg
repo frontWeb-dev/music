@@ -1,0 +1,18 @@
+<svg data-name="003-stopwatch" xmlns="http://www.w3.org/2000/svg" width="17.516" height="21" viewBox="0 0 17.516 21">
+    <defs>
+        <linearGradient id="dk0k3getha" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed8770"/>
+            <stop offset="1" stop-color="#d9519d"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 2193">
+        <g data-name="그룹 2192">
+            <path data-name="패스 68465" d="M191.935 0v1.752h1.752v.876a5.873 5.873 0 0 1 1.752 0v-.876h1.752V0z" transform="translate(-185.797)" style="fill:url(#dk0k3getha)"/>
+        </g>
+    </g>
+    <g data-name="그룹 2195">
+        <g data-name="그룹 2194">
+            <path data-name="패스 68466" d="m57.154 52.833.613-.613.7.7 1.226-1.226-2.628-2.628-1.225 1.227.7.7-.788.788a8.67 8.67 0 1 0 1.4 1.051zM51.2 65.359a6.131 6.131 0 0 1 0-12.263v6.131h6.131a6.093 6.093 0 0 1-6.131 6.132z" transform="translate(-42.432 -47.052)" style="fill:url(#dk0k3getha)"/>
+        </g>
+    </g>
+</svg>

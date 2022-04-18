@@ -1,0 +1,18 @@
+<svg data-name="006-folder" xmlns="http://www.w3.org/2000/svg" width="20.257" height="16.019" viewBox="0 0 20.257 16.019">
+    <defs>
+        <linearGradient id="k65u0gadza" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed8770"/>
+            <stop offset="1" stop-color="#d9519d"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 2197">
+        <g data-name="그룹 2196">
+            <path data-name="패스 68486" d="M16.484 87.136H9.175l-1.454-1.728a.248.248 0 0 0-.2-.089h-5.9A1.638 1.638 0 0 0 0 86.957v10.627a1.638 1.638 0 0 0 1.636 1.636h14.848a1.638 1.638 0 0 0 1.636-1.636v-8.812a1.638 1.638 0 0 0-1.636-1.636z" transform="translate(0 -83.202)" style="fill:url(#k65u0gadza)"/>
+        </g>
+    </g>
+    <g data-name="그룹 2199">
+        <g data-name="그룹 2198">
+            <path data-name="패스 68487" d="M59.876 44.5h-7.31l-1.454-1.728a.248.248 0 0 0-.2-.089h-5.893a1.636 1.636 0 0 0-1.619 1.41h5.376a.951.951 0 0 1 .731.34l1.241 1.476h6.981a2.343 2.343 0 0 1 2.339 2.339v8.317a1.636 1.636 0 0 0 1.432-1.623V46.13a1.638 1.638 0 0 0-1.624-1.63z" transform="translate(-41.245 -42.679)" style="fill:url(#k65u0gadza)"/>
+        </g>
+    </g>
+</svg>

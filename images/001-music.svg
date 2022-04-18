@@ -1,0 +1,11 @@
+<svg data-name="001-music" xmlns="http://www.w3.org/2000/svg" width="18.9" height="21.5" viewBox="0 0 18.9 21.5">
+    <defs>
+        <linearGradient id="z09jsdplqa" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed8770"/>
+            <stop offset="1" stop-color="#d9519d"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 2059">
+        <path data-name="패스 68417" d="M37.258 4.2v12.9a4.959 4.959 0 0 0-2.52-.64c-2.119 0-3.78 1.107-3.78 2.52s1.66 2.52 3.78 2.52 3.78-1.107 3.78-2.52V8.888L48.6 5.528v7.792a4.959 4.959 0 0 0-2.52-.64c-2.119 0-3.78 1.107-3.78 2.52s1.661 2.52 3.78 2.52 3.78-1.107 3.78-2.52V0z" transform="translate(-30.958)" style="fill:url(#z09jsdplqa)"/>
+    </g>
+</svg>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Music</title>
+
+    <link rel="stylesheet" href="css/music.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="inner">
+        <!-- status bar-->
+        <div class="status_bar">
+          <span class="time">09:41</span>
+          <div class="icons">
+            <div class="signal">
+              <img src="./images/그룹 5.svg" alt="" />
+            </div>
+            <div class="wifi">
+              <img src="./images/Sc2prs.tif_1_.svg" alt="" />
+            </div>
+            <div class="battery">
+              <img src="./images/그룹 6.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- songs -->
+      <section id="song">
+        <!-- menu & search btn-->
+        <div class="song_top">
+          <a class="back" href="./artist.html">
+            <span class="material-icons"> chevron_left </span>
+          </a>
+          <h2>Artist Details</h2>
+          <div class="search_bar">
+            <form action="">
+              <input type="text" placeholder="Search album song" />
+            </form>
+          </div>
+          <div class="search_btn">
+            <img src="./images/musica-searcher.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="song_wrap" id="artist_details">
+          <div class="img_box">
+            <div class="bg"></div>
+          </div>
+          <div class="contents">
+            <div class="info">
+              <h3>Dilon Bruce</h3>
+              <p>Pop rock, Funk pop, Heavy Metal</p>
+            </div>
+            <div class="like">
+              <div class="follow">
+                <p class="num">4,367</p>
+                <p class="text">Followers</p>
+              </div>
+              <div class="listener">
+                <p class="num">128,980</p>
+                <p class="text">Listeners</p>
+              </div>
+              <button>Follow</button>
+            </div>
+          </div>
+
+          <div class="top_title">
+            <h3>Top Albums</h3>
+            <span>View All</span>
+          </div>
+          <ul class="album_list">
+            <li>
+              <a href="">
+                <img
+                  src="./images/jack-hamilton-CMnNiQBkwBI-unsplash.png"
+                  alt=""
+                />
+                <h3>Fire Dragon</h3>
+                <p>2019</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/israel-palacio-Y20JJ_ddy9M-unsplash.png"
+                  alt=""
+                />
+                <h3>Sound of Life</h3>
+                <p>2018</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/darius-soodmand-F8E2tks5N04-unsplash.png"
+                  alt=""
+                />
+                <h3>Giving Heart</h3>
+                <p>2017</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/austin-neill-hgO1wFPXl3I-unsplash.png"
+                  alt=""
+                />
+                <h3>Dream of</h3>
+                <p>2016</p>
+              </a>
+            </li>
+          </ul>
+
+          <!-- top songs-->
+          <div class="top_title">
+            <h3>Top Songs</h3>
+            <span>View All</span>
+          </div>
+          <ul class="song_list">
+            <li>
+              <a href="">
+                <img src="./images/playbtn.svg" alt="" />
+                <div class="title">
+                  <h3>Second of You</h3>
+                  <p>3:56</p>
+                  <div class="imgbox">
+                    <span class="material-icons"> more_horiz </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/playbtn.svg" alt="" />
+                <div class="title">
+                  <h3>Whisper of Heart</h3>
+                  <p>4:12</p>
+                  <div class="imgbox">
+                    <span class="material-icons"> more_horiz </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- side menu -->
+      <div class="modal none"></div>
+      <div id="side_menu">
+        <div class="side_top">
+          <div class="logo">
+            <img
+              src="./images/KakaoTalk_Photo_2022-03-30-13-46-10.png"
+              alt=""
+            />
+            <p>Music</p>
+          </div>
+          <div class="music_info">
+            <ul>
+              <li>
+                <span>328</span>
+                <p>Songs</p>
+              </li>
+              <li>
+                <span>52</span>
+                <p>Albums</p>
+              </li>
+              <li>
+                <span>87</span>
+                <p>Artists</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="side_list">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/001-paint.svg" alt="" />
+                <p>Themes</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/002-scissors.svg" alt="" />
+                <p>Ringtone Cutter</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/003-stopwatch.svg" alt="" />
+                <p>Sleep timer</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/004-sound-bars.svg" alt="" />
+                <p>Equliser</p>
+              </a>
+            </li>
+            <li>
+              <a href="./drive_mode.html">
+                <img src="./images/13-car.svg" alt="" />
+                <p>Drive Mode</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/006-folder.svg" alt="" />
+                <p>Hidden Folders</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/007-scanner.svg" alt="" />
+                <p>Scan Media</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- playing-->
+      <div id="playing">
+        <a href="playing.html">
+          <div class="play_bar"></div>
+          <div class="play_song">
+            <img src="./images/NoPath - Copy (12).png" alt="" />
+            <div class="info">
+              <div class="song">
+                <h3>Billie Jean</h3>
+                <p>Michael Jackson</p>
+              </div>
+              <div class="control">
+                <img src="./images/그룹 2070.png" alt="" />
+                <img src="./images/그룹 2050.png" alt="" />
+                <img src="./images/그룹 2069.png" alt="" />
+              </div>
+            </div></div
+        ></a>
+      </div>
+
+      <!-- bottom nav -->
+      <div id="bottom_nav">
+        <div class="nav_btn">
+          <a href="./index.html">
+            <img src="./images/그룹 2061.png" alt="home" />
+            <span>Home</span>
+          </a>
+        </div>
+        <div class="nav_btn">
+          <a href="#" class="active">
+            <img src="./images/002-music.png" alt="home" />
+            <span>Songs</span>
+          </a>
+        </div>
+        <div class="nav_btn">
+          <a href="#home">
+            <img src="./images/gear.svg" alt="home" />
+            <span>Settings</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Music</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="inner">
+        <!-- status bar-->
+        <div class="status_bar">
+          <span class="time">09:41</span>
+          <div class="icons">
+            <div class="signal">
+              <img src="./images/그룹 5.svg" alt="" />
+            </div>
+            <div class="wifi">
+              <img src="./images/Sc2prs.tif_1_.svg" alt="" />
+            </div>
+            <div class="battery">
+              <img src="./images/그룹 6.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- songs -->
+      <section id="song" class="now_playing">
+        <!-- menu & search btn-->
+        <div class="song_top">
+          <a class="back" href="./songs.html">
+            <span class="material-icons"> chevron_left </span>
+          </a>
+          <h2>Now Playing</h2>
+          <div class="more_btn">
+            <span class="material-icons"> more_vert </span>
+          </div>
+        </div>
+
+        <div id="now_playing">
+          <div class="img_box">
+            <img src="./images/NoPath - Copy (45).png" alt="" />
+            <svg class="progress" width="237" height="237">
+              <circle
+                class="progress__meter"
+                cx="118.5"
+                cy="118.5"
+                r="118.5"
+                stroke-width="5"
+              />
+            </svg>
+          </div>
+          <div class="text">
+            <p class="time"><span>3:15 |</span><span> 4:26</span></p>
+            <h3>Black or White</h3>
+            <p class="song_info">
+              <span>Michael Jackson</span>
+              <span>Album - Dangerous</span>
+            </p>
+          </div>
+          <!-- <img class="eq" src="./images/EQ Display_big.png" alt="" /> -->
+          <div class="buttons">
+            <div class="control">
+              <div class="prev">
+                <img src="./images/prev.png" alt="" />
+              </div>
+              <div class="play">
+                <img src="./images/play.png" alt="" />
+              </div>
+              <div class="next">
+                <img src="./images/next.png" alt="" />
+              </div>
+            </div>
+            <div class="more_btn">
+              <div>
+                <img src="./images/003-playlist.png" alt="" />
+                <p>Playlist</p>
+              </div>
+              <div>
+                <img src="./images/002-shuffle.png" alt="" />
+                <p>Shuffle</p>
+              </div>
+              <div>
+                <img src="./images/001-repeat.png" alt="" />
+                <p>Repeat</p>
+              </div>
+              <div>
+                <img src="./images/eq.png" alt="" />
+                <p>EQ</p>
+              </div>
+              <div>
+                <img src="./images/005-heart.png" alt="" />
+                <p>Favorite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- side menu -->
+      <div class="modal none"></div>
+      <div id="side_menu">
+        <div class="side_top">
+          <div class="logo">
+            <img
+              src="./images/KakaoTalk_Photo_2022-03-30-13-46-10.png"
+              alt=""
+            />
+            <p>Music</p>
+          </div>
+          <div class="music_info">
+            <ul>
+              <li>
+                <span>328</span>
+                <p>Songs</p>
+              </li>
+              <li>
+                <span>52</span>
+                <p>Albums</p>
+              </li>
+              <li>
+                <span>87</span>
+                <p>Artists</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="side_list">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/001-paint.svg" alt="" />
+                <p>Themes</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/002-scissors.svg" alt="" />
+                <p>Ringtone Cutter</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/003-stopwatch.svg" alt="" />
+                <p>Sleep timer</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/004-sound-bars.svg" alt="" />
+                <p>Equliser</p>
+              </a>
+            </li>
+            <li>
+              <a href="./drive_mode.html">
+                <img src="./images/13-car.svg" alt="" />
+                <p>Drive Mode</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/006-folder.svg" alt="" />
+                <p>Hidden Folders</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/007-scanner.svg" alt="" />
+                <p>Scan Media</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- bottom nav -->
+      <div id="bottom_nav">
+        <div class="nav_btn">
+          <a href="./index.html">
+            <img src="./images/그룹 2061.png" alt="home" />
+            <span>Home</span>
+          </a>
+        </div>
+        <div class="nav_btn">
+          <a href="#" class="active">
+            <img src="./images/002-music.png" alt="home" />
+            <span>Songs</span>
+          </a>
+        </div>
+        <div class="nav_btn">
+          <a href="#home">
+            <img src="./images/gear.svg" alt="home" />
+            <span>Settings</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      const myAudio = new Audio();
+      myAudio.src = './audios/Black Or White [Áudio Oficial].mp3';
+
+      const play = document.querySelector('.play');
+      play.addEventListener('click', () => {
+        myAudio.play();
+        play.classList.add('playing');
+      });
+    </script>
+  </body>
+</html>

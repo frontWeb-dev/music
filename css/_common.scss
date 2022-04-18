@@ -1,0 +1,33 @@
+// mixin
+
+@mixin wh($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flex($justify: flex-start, $align: flex-start, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin font($size, $color, $opacity: 1) {
+  font-size: $size;
+  color: $color;
+  opacity: $opacity;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// color
+$white-color: #fff;
+$text-color: #585a66;
+$view-color: #ed8778;
+$star-color: #e1914b;
+$border-bottom: 1px solid rgba(255, 255, 255, 0.1);

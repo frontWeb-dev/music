@@ -1,0 +1,77 @@
+@charset 'utf-8';
+@import './common';
+
+// reset
+@import './_reset';
+
+// home
+@import './_home';
+
+// song
+@import './_song';
+
+// album
+@import './_album';
+@import './_album_detail';
+
+// artist
+@import './_artist';
+@import './_artist_detail';
+
+// genre
+@import './_genre';
+
+// playing
+@import './_playing';
+
+// sideBar
+@import './_sidebar';
+
+// bottom nav
+@import './_bottom_nav';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.inner {
+  padding: 9px 20px 9px 20px;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: #181b2c;
+
+  .status_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    opacity: 0.7;
+
+    span {
+      font-size: 14px;
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      & > div:not(:last-of-type) {
+        margin-right: 5px;
+      }
+    }
+  }
+}

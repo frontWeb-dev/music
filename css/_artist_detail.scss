@@ -11,8 +11,7 @@
   }
 
   .bg {
-    width: 100%;
-    height: 100%;
+    @include wh(100%, 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -20,82 +19,63 @@
   }
 
   .contents {
-    width: 336px;
-    height: 170px;
+    @include wh(336px, 170px);
+    @include flex(center, center);
+    flex-wrap: wrap;
     padding: 0 20px;
-
     position: absolute;
     top: 0;
     left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
     text-align: center;
 
     .info {
       width: 100%;
       margin-bottom: 30px;
+
       h3 {
-        font-size: 18px;
-        color: #eee;
+        @include font(18px, #eee, 0.9);
         margin-bottom: 10px;
-        opacity: 0.9;
       }
       p {
+        @include font(13px, #eee, 0.7);
         margin-bottom: 10px;
-        font-size: 13px;
-        color: #eee;
-        opacity: 0.7;
       }
     }
 
     .like {
+      @include flex(space-between, center);
       width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
 
       .num {
+        @include font(14px, #eee, 0.9);
         margin-bottom: 5px;
-        font-size: 14px;
-        color: #eee;
-        opacity: 0.9;
       }
 
       .text {
-        font-size: 10px;
-        color: #eee;
-        opacity: 0.6;
+        @include font(10px, #eee, 0.6);
       }
+
       button {
-        width: 75px;
-        height: 24px;
+        @include wh(75px, 24px);
+        @include font(8px, $white-color);
         margin-right: 10px;
-        color: #fff;
-        font-size: 8px;
-        background: linear-gradient(to bottom, #ed8770, #d9519d);
+        background: linear-gradient(to bottom, $view-color, $active-color);
         border: none;
       }
     }
   }
 
   .top_title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex(space-between, center);
     padding: 0;
-    margin-top: 34px;
-    margin-bottom: 30px;
+    margin: 34px 0 36px 0;
 
     h3 {
-      font-size: 15px;
-      opacity: 0.8;
+      @include font(15px, $white-color, 0.8);
     }
 
     span {
-      font-size: 11px;
-      color: #ed8770;
+      @include font(11px, $view-color);
     }
   }
 
@@ -113,15 +93,11 @@
       margin-bottom: 18px;
     }
     h3 {
-      font-size: 12px;
+      @include font(12px, $white-color, 0.6);
       margin-bottom: 6px;
-      color: #fff;
-      opacity: 0.6;
     }
     p {
-      font-size: 10px;
-      color: #eee;
-      opacity: 0.5;
+      @include font(10px, #eee, 0.5);
     }
   }
   .song_list {
@@ -131,9 +107,8 @@
       margin-bottom: 20px;
     }
     a {
+      @include wh(100%, 30px);
       display: block;
-      width: 100%;
-      height: 30px;
 
       & > img {
         height: 22px;
@@ -142,24 +117,20 @@
       }
     }
     .title {
+      @include flex(space-between, flex-start);
       height: 100%;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
       color: #fff;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: $border;
 
       h3 {
+        @include font(14px, #fff, 0.3);
         width: 50%;
-        font-size: 14px;
-        opacity: 0.3;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
       }
       p {
-        font-size: 12px;
-        opacity: 0.3;
+        @include font(12px, #fff, 0.3);
       }
       .imgbox {
         width: 30%;

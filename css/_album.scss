@@ -1,12 +1,10 @@
 @charset "utf-8";
 
 #album {
+  @include flex(space-between, center);
+  flex-wrap: wrap;
   margin-bottom: 40px;
   padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 
   li {
     position: relative;
@@ -17,11 +15,9 @@
     font-size: 11px;
   }
   .title {
+    @include flex(space-between, flex-start);
     position: relative;
     margin-bottom: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
     color: #c1c0c0;
   }
 
@@ -71,8 +67,7 @@
     }
 
     a {
-      font-size: 12px;
-      color: #eee;
+      @include font(12px, #eee);
     }
   }
 }

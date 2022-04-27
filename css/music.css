@@ -334,11 +334,12 @@ button {
   padding-bottom: 80px;
 }
 #song .song_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   margin-bottom: 36px;
   padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 #song .song_top .menu {
   width: 26px;
@@ -360,19 +361,21 @@ button {
 #song .song_top .search_bar input {
   width: 100%;
   height: 37px;
+  border-radius: 18px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
   padding: 9px 20px;
   text-align: center;
-  color: #fff;
   outline: none;
   border: none;
-  border-radius: 18px;
-  opacity: 0.8;
   background: #292e4b url("../images/musica-searcher.svg") no-repeat 14px 9px;
 }
 #song .song_top h2 {
   margin-top: -5px;
   line-height: 1;
   font-size: 17px;
+  color: #fff;
   opacity: 0.8;
 }
 #song .song_top .search_btn {
@@ -397,8 +400,9 @@ button {
   padding: 0 20px;
   margin-bottom: 40px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 #song .song_wrap .songs_info li {
   height: 25px;
@@ -430,21 +434,22 @@ button {
   margin-right: 15px;
 }
 #song .song_wrap .songs_list .album .circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 14px;
-  height: 14px;
-  border-radius: 100%;
   background-color: #272b36;
 }
 #song .song_wrap .songs_list .info {
   width: 100%;
   height: 46px;
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #song .song_wrap .songs_list .title h3 {
@@ -458,8 +463,9 @@ button {
 }
 #song .song_wrap > .title {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   margin-bottom: 30px;
   padding: 0 20px;
 }
@@ -471,13 +477,15 @@ button {
 #song .song_wrap > .title .view_more {
   font-size: 11px;
   color: #ed8770;
+  opacity: 1;
 }
 #song .track {
-  margin-bottom: 36px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
 }
 #song .track li {
   width: 50%;
@@ -496,16 +504,17 @@ button {
   background: url("../images/favorite_big.png") no-repeat center/100%;
 }
 #song .track li a {
-  position: relative;
-  display: block;
   width: 100%;
   height: 100%;
+  position: relative;
+  display: block;
   background-color: rgba(0, 0, 0, 0.5);
 }
 #song .track li .info {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   position: absolute;
   width: 100%;
   bottom: 8px;
@@ -515,41 +524,47 @@ button {
   margin-bottom: 5px;
   font-size: 14px;
   color: #eee;
+  opacity: 1;
 }
 #song .track li .info p {
   font-size: 11px;
   color: #c1c0c0;
+  opacity: 1;
 }
 #song .playlist {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
   padding: 0 14px;
   margin-bottom: 40px;
-  display: flex;
-  align-items: center;
   overflow-x: auto;
 }
 #song .playlist li {
   margin-right: 18px;
 }
 #song .playlist a {
-  display: block;
   width: 100%;
   height: 100%;
+  display: block;
 }
 #song .playlist img {
   margin-bottom: 18px;
 }
 #song .playlist p {
   width: 80px;
-  font-size: 12px;
-  color: #fff;
-  opacity: 0.6;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.6;
 }
 #song .card_wrap {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: row;
   overflow-x: auto;
 }
 #song .card_wrap .card {
@@ -570,15 +585,17 @@ button {
 #song .card_wrap .card a p {
   font-size: 10px;
   color: #585a66;
+  opacity: 1;
 }
 
 #album {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 40px;
   padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 #album li {
   position: relative;
@@ -588,11 +605,12 @@ button {
   font-size: 11px;
 }
 #album .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
   position: relative;
   margin-bottom: 10px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   color: #c1c0c0;
 }
 #album p {
@@ -638,6 +656,7 @@ button {
 #album .view a {
   font-size: 12px;
   color: #eee;
+  opacity: 1;
 }
 
 #details {
@@ -657,14 +676,16 @@ button {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #details .contents {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 16px 21px 18px;
   margin-bottom: 34px;
   position: absolute;
   top: 0;
   left: 27px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 #details .contents img {
   -o-object-fit: contain;
@@ -672,15 +693,15 @@ button {
   margin: 0 20px 20px 0;
 }
 #details .contents .info h3 {
-  font-size: 18px;
-  color: #eee;
   margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
   opacity: 0.9;
 }
 #details .contents .info p {
   margin-bottom: 10px;
   font-size: 12px;
-  color: #eee;
+  color: #fff;
   opacity: 0.7;
 }
 #details .contents .buttons {
@@ -689,15 +710,16 @@ button {
 #details .contents .buttons button {
   width: 75px;
   height: 24px;
-  margin-right: 10px;
-  color: #fff;
   font-size: 8px;
+  color: #fff;
+  opacity: 1;
   border-radius: 30px;
+  margin-right: 10px;
   background-color: transparent;
   border: 1px solid #fff;
 }
 #details .contents .buttons button:first-of-type {
-  background: linear-gradient(to bottom, #ed8770, #d9519d);
+  background: linear-gradient(to bottom, #ed8778, #d9519d);
   border: none;
 }
 #details .contents .buttons button:last-of-type {
@@ -715,9 +737,9 @@ button {
   margin-bottom: 20px;
 }
 #details .song_list a {
-  display: block;
   width: 100%;
   height: 30px;
+  display: block;
 }
 #details .song_list a > img {
   height: 22px;
@@ -725,23 +747,26 @@ button {
   float: left;
 }
 #details .song_list .title {
-  height: 100%;
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #details .song_list .title h3 {
-  width: 50%;
   font-size: 14px;
+  color: #fff;
   opacity: 0.3;
+  width: 50%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 #details .song_list .title p {
   font-size: 12px;
+  color: #fff;
   opacity: 0.3;
 }
 #details .song_list .title .imgbox {
@@ -852,14 +877,15 @@ button {
 #artist_details .contents {
   width: 336px;
   height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 0 20px;
   position: absolute;
   top: 0;
   left: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
   text-align: center;
 }
 #artist_details .contents .info {
@@ -869,26 +895,27 @@ button {
 #artist_details .contents .info h3 {
   font-size: 18px;
   color: #eee;
-  margin-bottom: 10px;
   opacity: 0.9;
+  margin-bottom: 10px;
 }
 #artist_details .contents .info p {
-  margin-bottom: 10px;
   font-size: 13px;
   color: #eee;
   opacity: 0.7;
+  margin-bottom: 10px;
 }
 #artist_details .contents .like {
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 #artist_details .contents .like .num {
-  margin-bottom: 5px;
   font-size: 14px;
   color: #eee;
   opacity: 0.9;
+  margin-bottom: 5px;
 }
 #artist_details .contents .like .text {
   font-size: 10px;
@@ -898,27 +925,30 @@ button {
 #artist_details .contents .like button {
   width: 75px;
   height: 24px;
-  margin-right: 10px;
-  color: #fff;
   font-size: 8px;
-  background: linear-gradient(to bottom, #ed8770, #d9519d);
+  color: #fff;
+  opacity: 1;
+  margin-right: 10px;
+  background: linear-gradient(to bottom, #ed8778, #d9519d);
   border: none;
 }
 #artist_details .top_title {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   padding: 0;
-  margin-top: 34px;
-  margin-bottom: 30px;
+  margin: 34px 0 36px 0;
 }
 #artist_details .top_title h3 {
   font-size: 15px;
+  color: #fff;
   opacity: 0.8;
 }
 #artist_details .top_title span {
   font-size: 11px;
-  color: #ed8770;
+  color: #ed8778;
+  opacity: 1;
 }
 #artist_details .album_list {
   display: flex;
@@ -934,9 +964,9 @@ button {
 }
 #artist_details .album_list h3 {
   font-size: 12px;
-  margin-bottom: 6px;
   color: #fff;
   opacity: 0.6;
+  margin-bottom: 6px;
 }
 #artist_details .album_list p {
   font-size: 10px;
@@ -950,9 +980,9 @@ button {
   margin-bottom: 20px;
 }
 #artist_details .song_list a {
-  display: block;
   width: 100%;
   height: 30px;
+  display: block;
 }
 #artist_details .song_list a > img {
   height: 22px;
@@ -960,23 +990,26 @@ button {
   float: left;
 }
 #artist_details .song_list .title {
-  height: 100%;
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #artist_details .song_list .title h3 {
-  width: 50%;
   font-size: 14px;
+  color: #fff;
   opacity: 0.3;
+  width: 50%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 #artist_details .song_list .title p {
   font-size: 12px;
+  color: #fff;
   opacity: 0.3;
 }
 #artist_details .song_list .title .imgbox {
@@ -1087,6 +1120,79 @@ button {
 #playing .play_song .control {
   display: flex;
   align-items: center;
+}
+
+#now_playing {
+  padding: 0 20px;
+  text-align: center;
+}
+#now_playing .img_box {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#now_playing .img_box img {
+  position: relative;
+  z-index: 100;
+}
+#now_playing .img_box .progress {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+#now_playing .text {
+  text-align: center;
+}
+#now_playing .text h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.9;
+}
+#now_playing .text p {
+  font-size: 12px;
+  color: #c1c0c0;
+  opacity: 1;
+}
+#now_playing .text .time {
+  margin-bottom: 25px;
+}
+#now_playing .text .song_info {
+  margin-bottom: 22px;
+}
+#now_playing > img {
+  margin-bottom: 20px;
+}
+#now_playing .buttons {
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+#now_playing .buttons .control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+#now_playing .buttons .control > .play {
+  margin: 0 40px;
+}
+#now_playing .buttons .more_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+#now_playing .buttons .more_btn img {
+  margin-bottom: 8px;
+}
+#now_playing .buttons .more_btn p {
+  font-size: 10px;
+  color: #c1c0c0;
+  opacity: 1;
 }
 
 .modal {
@@ -1231,8 +1337,9 @@ body::-webkit-scrollbar {
 }
 #wrapper .status_bar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   width: 100%;
   height: 20px;
   opacity: 0.7;
@@ -1242,8 +1349,9 @@ body::-webkit-scrollbar {
 }
 #wrapper .status_bar .icons {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 #wrapper .status_bar .icons > div:not(:last-of-type) {
   margin-right: 5px;
